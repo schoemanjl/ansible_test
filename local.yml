@@ -6,7 +6,9 @@
   tasks:
   - name: install packages
     package:
-      name: 
+      name:
+        - python3-psutil
+        - nano 
         - htop
         - tmux
         - vim-nox
