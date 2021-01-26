@@ -4,9 +4,9 @@
   become: true
 
   tasks:
-- name: install packages
-  package:
-    name: 
-      - htop
-      - tmux
-      - vim-nox
+  - name: install packages
+    package:
+      name: 
+        - htop
+        - tmux
+        - vim-nox
