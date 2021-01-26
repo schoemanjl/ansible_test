@@ -30,4 +30,4 @@
     become_user: administrator
     dconf:
       key: "/org/gnome/desktop/background/picture-options"
-      value "'zoom'" 
+      value: "'zoom'" 
